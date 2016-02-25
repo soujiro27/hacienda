@@ -2,3 +2,134 @@ body {
   background: #efefef;
   font-family: arial;
 }
+header {
+  background: url("../img/fondo3.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+header aside {
+  padding: 2%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  width: 10%;
+  display: inline-block;
+}
+header aside img {
+  width: 100px;
+  height: 100px;
+}
+header aside ul {
+  margin: 0;
+  padding: 0;
+}
+header aside ul li {
+  display: block;
+  color: #fff;
+  padding: 2%;
+  margin: 15% auto;
+  text-align: left;
+}
+header div.inicio {
+  margin: 5% 0;
+  color: #fff;
+  width: 79%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+header div.inicio h1 {
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 3px 3px #000;
+}
+header div.inicio h2 {
+  color: #fff;
+  text-shadow: 3px 3px 3px #000;
+  margin-bottom: 3%;
+}
+header div.inicio a {
+  border-bottom: 3px solid #ffa500;
+  background: #2c3e50;
+  color: #fff;
+  padding: 1%;
+  width: 10%;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section.historia div.texto {
+  width: 56%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 2%;
+}
+section.historia div.texto h2 {
+  font-family: 'Lobster', cursive;
+  color: #2c3e50;
+  font-size: 43px;
+  margin-bottom: 9%;
+}
+section.historia div.texto p {
+  margin-bottom: 7%;
+}
+section.historia img {
+  width: 40%;
+  display: inline-block;
+}
+section.espacios {
+  background: #2c3e50;
+  padding: 1%;
+  color: #fff;
+  text-align: center;
+}
+section.espacios h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 43px;
+  text-shadow: 2px 2px 2px #000;
+}
+section.espacios p {
+  margin-bottom: 6%;
+}
+section.espacios a {
+  background: #ffa500;
+}
+section.espacios article {
+  margin-top: 5%;
+}
+section.espacios article img {
+  width: 25%;
+  display: inline-block;
+}
+section.leyenda {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 1%;
+  text-align: center;
+}
+section.leyenda h2 {
+  font-size: 43px;
+  font-family: 'Lobster', cursive;
+  color: #2c3e50;
+}
+section.leyenda p {
+  margin-bottom: 5%;
+}
+section.ubicacion img {
+  width: 100%;
+  height: 300px;
+}
+footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+}
+a {
+  border-bottom: 3px solid #ffa500;
+  background: #2c3e50;
+  color: #fff;
+  padding: 1%;
+  width: 10%;
+  text-decoration: none;
+  border-radius: 5px;
+}
