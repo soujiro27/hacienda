@@ -57,3 +57,17 @@ section.historia div.columnas a {
   text-align: center;
   border-bottom: 4px solid #c0392b;
 }
+section.espacios {
+  background: url("../img/espacios.jpg");
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 2%;
+}
+section.espacios h2 {
+  text-align: center;
+  text-shadow: 2px 2px 3px #000;
+  padding-top: 5%;
+}
+section.espacios p {
+  font-weight: bold;
+}
