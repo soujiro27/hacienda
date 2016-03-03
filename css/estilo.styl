@@ -1,117 +1,57 @@
 grisClaro=#efefef
 azulObscuro=#2c3e50
+verde=#27ae60
+rojo=#c0392b
 
 body
-	background grisClaro
-	font-family arial
-header
-	background url(../img/fondo3.jpg)no-repeat
-	background-size 100% 100%
-	aside
-		padding 2%
-		text-align center
-		background rgba(0,0,0,.5)
-		width 10%
-		display inline-block
-		img
-			width 100px
-			height 100px
+	header
+		background url(../img/fondo3.jpg)no-repeat
+		padding 10% 3%
+		background-size 100% 100%
+		color #fff
+		position relative
+		nav
+			display none
 		ul
 			margin 0
 			padding 0
-			li
-				display block
-				color #fff
-				padding 2%
-				margin 15% auto
-				text-align left
-			
-	div.inicio
-		margin 5% 0
-		color #fff
-		width 79%
-		display inline-block
-		vertical-align top
-		text-align center
 		h1
-			font-size 60px
-			font-family 'Lobster', cursive
-			text-shadow 3px 3px 3px black
+			font-size 22px
+			text-align center
+			text-shadow 2px 2px 3px black
 		h2
-			color #fff
-			text-shadow 3px 3px 3px black
-			margin-bottom 3%
-		a
-			border-bottom 3px solid orange
-			background azulObscuro
-			color #fff
-			padding 1%
-			width 10%
-			text-decoration none
-			border-radius 5px
+			font-size 16px
+			font-style italic
+			text-align center
+			text-shadow 2px 2px 3px black
+		&:after
+			content ""
+			position absolute 
+			border-top 40px solid transparent
+			border-left 160px solid #fff
+			border-right 160px solid #fff
+			border-bottom 0px solid transparent
+			bottom 0
+			left 0
 section.historia
-	div.texto
-		width 56%
-		display inline-block
-		vertical-align top
+	h2
 		text-align center
-		padding 2%
-		h2
-			font-family 'Lobster', cursive
-			color azulObscuro
-			font-size 43px
-			margin-bottom 9%
+		margin 2% auto
+	div.columnas
 		p
-			margin-bottom 7%
-	img
-		width 40%
-		display inline-block
-
-section.espacios
-	background azulObscuro
-	padding 1%
-	color #fff
-	text-align center
-	h2
-		font-family 'Lobster', cursive
-		font-size 43px
-		text-shadow 2px 2px 2px black
-	p
-		margin-bottom 6%
-	a
-		background orange
-	article
-		margin-top 5%
-		img
-			width 25%
-			display inline-block
-section.leyenda
-	width 80%
-	display block
-	margin 0 auto
-	padding 1%
-	text-align center
-	h2
-		font-size 43px
-		font-family 'Lobster', cursive
-		color azulObscuro
-	p
-		margin-bottom 5%
-section.ubicacion
-	img
-		width 100%
-		height 300px
-footer
-	background azulObscuro
-	color #fff
-	text-align center
-	padding 2%	
-
-a
-			border-bottom 3px solid orange
-			background azulObscuro
+			padding 2%
+			font-size 16px
+			margin 0
+			text-align left
+		p.segundoParrafo
+			display none
+		a
+			text-decoration none
+			background verde
 			color #fff
 			padding 1%
-			width 10%
-			text-decoration none
-			border-radius 5px
+			display block
+			margin 2% auto
+			width 60%
+			text-align center
+			border-bottom 4px solid rojo
