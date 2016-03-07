@@ -43,25 +43,13 @@ section.historia div.columnas p {
   margin: 0;
   text-align: left;
 }
-section.historia div.columnas p.segundoParrafo {
-  display: none;
-}
-section.historia div.columnas a {
-  text-decoration: none;
-  background: #27ae60;
-  color: #fff;
-  padding: 1%;
-  display: block;
-  margin: 2% auto;
-  width: 60%;
-  text-align: center;
-  border-bottom: 4px solid #c0392b;
-}
 section.espacios {
   background: url("../img/espacios.jpg");
   background-size: 100% 100%;
   color: #fff;
-  padding: 2%;
+  padding: 2% 2% 20% 2%;
+  position: relative;
+  margin-top: 10%;
 }
 section.espacios h2 {
   text-align: center;
@@ -70,4 +58,48 @@ section.espacios h2 {
 }
 section.espacios p {
   font-weight: bold;
+  width: 90%;
+  margin: 5px auto 30px auto;
+}
+section.espacios:before {
+  border-bottom: 55px solid transparent;
+  border-top: 0px solid #00f;
+  border-right: 320px solid #fff;
+  border-left: 0px solid #008000;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+}
+section.espacios:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 0px solid #f00;
+  border-right: 320px solid #fff;
+  border-left: 0px solid #00f;
+  border-top: 80px solid transparent;
+}
+section.leyenda {
+  background: url("../img/leyenda.jpg");
+  background-size: 100% 100%;
+  color: #000;
+  padding: 2% 2% 8% 2%;
+  position: relative;
+  margin-top: 10%;
+}
+a {
+  background: #a71414;
+  border-bottom: 4px solid #c0392b;
+  color: #fff;
+  display: block;
+  margin: 2% auto;
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+  width: 60%;
+}
+.segundoParrafo {
+  display: none;
 }
